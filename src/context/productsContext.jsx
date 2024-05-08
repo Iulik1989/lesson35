@@ -31,6 +31,55 @@ const mockData = [
       img: 'https://lasa-masafiu.eu/wp-content/uploads/2021/09/fresh-salmon-fillet-with-basil-white-background_120872-25364.jpeg',
       price: '20.50',
       id: '5',
+    },
+    {
+      title: 'potato',
+      img: 'https://m.media-amazon.com/images/I/313dtY-LOEL._AC_UF1000,1000_QL80_.jpg',
+      price: '1.5',
+      id: '6'
+
+    },
+    {
+      title: 'beef',
+      img: 'https://cdn.britannica.com/68/143268-050-917048EA/Beef-loin.jpg',
+      price: '20.55',
+      id: '7'
+
+    },
+    {
+      title: 'pork',
+      img: 'https://images.yummy.ph/yummy/uploads/2021/02/porkcutlet.jpg',
+      price: '14.20',
+      id: '8'
+
+    },
+    {
+      title: 'onion',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/1200px-Onion_on_White.JPG',
+      price: '3.6',
+      id: '9'
+
+    },
+    {
+      title: 'strawberry',
+      img: 'https://stoller.com.au/wp-content/uploads/2021/08/dreamstime_xxl_114284301-scaled-e1630045644758.jpg',
+      price: '8.90',
+      id: '10'
+
+    },
+    {
+      title: 'watermelon',
+      img: 'https://cdn.britannica.com/99/143599-050-C3289491/Watermelon.jpg',
+      price: '5.60',
+      id: '11'
+
+    },
+    {
+      title: 'brokoli',
+      img: 'https://dww3ueizok6z0.cloudfront.net/food/banner/4031-b52842e16737cbf6a27914e419131863ac6b03f5',
+      price: '9.99',
+      id: '12'
+
     }
   ]
 
