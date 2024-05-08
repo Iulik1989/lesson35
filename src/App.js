@@ -3,23 +3,22 @@ import { ProductsProvider } from "./context/productsContext";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import ErrorPage from "./pages/ErrorPage";
-
+import NavigationBar from "./pages/NavigationBar";
+import ShopingCartPage from "./pages/ShopingCartPage";
 
 function App() {
 
   return (
-    <ProductsProvider>      
+    <ProductsProvider>
       <BrowserRouter>
-         <div>
-          <Link to="/">Home</Link>
-          <Link to="/product">Product</Link>
-         </div>
+        <NavigationBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/product/:id" element={<ProductPage />} />
+          <Route path="/cart" element={<ShopingCartPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>           
+      </BrowserRouter>
     </ProductsProvider>
   );
 }

@@ -4,4 +4,6 @@
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 64px 32px; 
 }
